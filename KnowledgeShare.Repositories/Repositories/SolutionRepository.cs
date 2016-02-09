@@ -1,20 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Common.CommandTrees.ExpressionBuilder;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Runtime.Remoting.Messaging;
 using System.Web;
-using KnowledgeShareWebApi.Models;
+using KnowledgeShare.Models.Models;
 
-namespace KnowledgeShareWebApi.Services
+namespace KnowledgeShare.Repositories.Repositories
 {
-    public class SolutionService
+    public class SolutionRepository
     {
         private readonly SqlConnection _connection;
-        public SolutionService()
+        public SolutionRepository()
         {
             _connection = new SqlConnection("Data Source=b9wyaqyyrn.database.windows.net;Initial Catalog=MobileApp;User ID=laxmanrapolu;Password=Lucky_123;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;");
         }
@@ -68,35 +67,7 @@ namespace KnowledgeShareWebApi.Services
             _connection.Open();
             insertSolution.ExecuteNonQuery();
             _connection.Close();
-            try
-            {
-             //   SendEmail(problem);
-            }
-            catch (Exception ex)
-            {
-                
-               Console.WriteLine(ex);
-            }
-            
             return "Successfully Posted a Solution";
-        }
-
-        private static void SendEmail(Problem problem)
-        {
-            var from = new MailAddress("lucky.aisu@gmail.com", "KnowledgeShare");
-            var to = new MailAddress(problem.Email);
-            var mail = new MailMessage(from, to)
-            {
-                Subject = "Solution has been provided to your problem",
-                Body = problem.SolutionBy + " " + "has submitted a solution for your problem in course" + " " + problem.Course
-            };
-
-            var ms = new SmtpClient("smtpcorp.com")
-            {
-                Credentials = new NetworkCredential("lucky.aisu@gmail.com", "lucky_123"),
-                Port = 2525
-            };
-            ms.Send(mail);
         }
     }
 }

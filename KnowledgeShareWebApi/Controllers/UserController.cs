@@ -4,8 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using KnowledgeShareWebApi.Models;
-using KnowledgeShareWebApi.Services;
+using KnowledgeShare.Models.Models;
+using KnowledgeShareWebApi.Services.Services;
 
 namespace KnowledgeShareWebApi.Controllers
 {

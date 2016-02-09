@@ -1,0 +1,4 @@
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Models\bin\Debug\KnowledgeShare.Models.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Models\bin\Debug\KnowledgeShare.Models.pdb
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Models\obj\Debug\KnowledgeShare.Models.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Models\obj\Debug\KnowledgeShare.Models.pdb

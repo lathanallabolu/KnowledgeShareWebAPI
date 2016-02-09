@@ -1,0 +1,1 @@
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Services\obj\Debug\KnowledgeShare.Services.csprojResolveAssemblyReference.cache

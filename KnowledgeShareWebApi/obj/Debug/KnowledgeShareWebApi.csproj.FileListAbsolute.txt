@@ -30,3 +30,41 @@ C:\Users\rapolul\Documents\Visual Studio 2013\Projects\KnowledgeShareWebApi\Know
 C:\Users\rapolul\Documents\Visual Studio 2013\Projects\KnowledgeShareWebApi\KnowledgeShareWebApi\obj\Debug\KnowledgeShareWebApi.csprojResolveAssemblyReference.cache
 C:\Users\rapolul\Documents\Visual Studio 2013\Projects\KnowledgeShareWebApi\KnowledgeShareWebApi\obj\Debug\KnowledgeShareWebApi.dll
 C:\Users\rapolul\Documents\Visual Studio 2013\Projects\KnowledgeShareWebApi\KnowledgeShareWebApi\obj\Debug\KnowledgeShareWebApi.pdb
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\obj\Debug\KnowledgeShareWebApi.csprojResolveAssemblyReference.cache
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\KnowledgeShareWebApi.dll.config
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\KnowledgeShareWebApi.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\KnowledgeShareWebApi.pdb
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\Antlr3.Runtime.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\KnowledgeShare.Models.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\KnowledgeShare.Repositories.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\KnowledgeShareWebApi.Services.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\Newtonsoft.Json.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Net.Http.Formatting.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Helpers.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Http.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Http.WebHost.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Mvc.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Optimization.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Razor.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.WebPages.Deployment.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.WebPages.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.WebPages.Razor.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\WebGrease.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\KnowledgeShare.Models.pdb
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\KnowledgeShare.Repositories.pdb
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\KnowledgeShareWebApi.Services.pdb
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\Newtonsoft.Json.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Net.Http.Formatting.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Helpers.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Http.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Http.WebHost.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Mvc.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Optimization.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.Razor.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.WebPages.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.WebPages.Deployment.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\System.Web.WebPages.Razor.xml
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\bin\Antlr3.Runtime.pdb
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\obj\Debug\KnowledgeShareWebApi.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShareWebApi\obj\Debug\KnowledgeShareWebApi.pdb

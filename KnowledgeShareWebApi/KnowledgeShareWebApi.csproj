@@ -142,15 +142,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Courses.cs" />
-    <Compile Include="Models\Expert.cs" />
-    <Compile Include="Models\Problem.cs" />
-    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\ExpertService.cs" />
-    <Compile Include="Services\ProblemService.cs" />
-    <Compile Include="Services\SolutionService.cs" />
-    <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -197,7 +189,20 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\KnowledgeShare.Models\KnowledgeShare.Models.csproj">
+      <Project>{48f6fb4d-0517-43da-a735-c9f7a3478507}</Project>
+      <Name>KnowledgeShare.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KnowledgeShare.Repositories\KnowledgeShare.Repositories.csproj">
+      <Project>{faf874f6-5cd1-4993-92fd-840a51b317f9}</Project>
+      <Name>KnowledgeShare.Repositories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KnowledgeShareWebApi.Services\KnowledgeShareWebApi.Services.csproj">
+      <Project>{5f94defb-fd5d-4f25-91a4-b81c86feb69c}</Project>
+      <Name>KnowledgeShareWebApi.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />

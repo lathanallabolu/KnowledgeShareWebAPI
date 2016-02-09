@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeShareWebApi", "KnowledgeShareWebApi\KnowledgeShareWebApi.csproj", "{8BE393DB-9710-4499-9F58-6FBAA42B3855}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeShare.Repositories", "KnowledgeShare.Repositories\KnowledgeShare.Repositories.csproj", "{FAF874F6-5CD1-4993-92FD-840A51B317F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeShare.Models", "KnowledgeShare.Models\KnowledgeShare.Models.csproj", "{48F6FB4D-0517-43DA-A735-C9F7A3478507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnowledgeShareWebApi.Services", "KnowledgeShareWebApi.Services\KnowledgeShareWebApi.Services.csproj", "{5F94DEFB-FD5D-4F25-91A4-B81C86FEB69C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{8BE393DB-9710-4499-9F58-6FBAA42B3855}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BE393DB-9710-4499-9F58-6FBAA42B3855}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BE393DB-9710-4499-9F58-6FBAA42B3855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF874F6-5CD1-4993-92FD-840A51B317F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF874F6-5CD1-4993-92FD-840A51B317F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF874F6-5CD1-4993-92FD-840A51B317F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF874F6-5CD1-4993-92FD-840A51B317F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F6FB4D-0517-43DA-A735-C9F7A3478507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F6FB4D-0517-43DA-A735-C9F7A3478507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F6FB4D-0517-43DA-A735-C9F7A3478507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F6FB4D-0517-43DA-A735-C9F7A3478507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F94DEFB-FD5D-4F25-91A4-B81C86FEB69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F94DEFB-FD5D-4F25-91A4-B81C86FEB69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F94DEFB-FD5D-4F25-91A4-B81C86FEB69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F94DEFB-FD5D-4F25-91A4-B81C86FEB69C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

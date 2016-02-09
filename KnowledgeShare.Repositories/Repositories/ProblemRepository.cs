@@ -6,23 +6,22 @@ using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Web;
-using KnowledgeShareWebApi.Models;
+using KnowledgeShare.Models.Models;
 
-namespace KnowledgeShareWebApi.Services
+namespace KnowledgeShare.Repositories.Repositories
 {
-    public class ProblemService
+    public class ProblemRepository
     {
         private readonly SqlConnection _connection;
-        private readonly ExpertService _expertService;
-        public ProblemService()
+        public ProblemRepository()
         {
             _connection = new SqlConnection("Data Source=b9wyaqyyrn.database.windows.net;Initial Catalog=MobileApp;User ID=laxmanrapolu;Password=Lucky_123;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;");
-            _expertService=new ExpertService();
+            
         }
 
-        public List<Problem> GetExpertProblems(string zid)
+        public List<Problem> GetExpertProblems(IEnumerable<Courses> courseses)
         {
-            var expertCourses = _expertService.GetCourses(zid);
+            var expertCourses = courseses;
             var problems = new List<Problem>();
             _connection.Open();
             foreach (var expertCourse in expertCourses)
@@ -53,7 +52,7 @@ namespace KnowledgeShareWebApi.Services
             return problems;
         }
 
-        public string AddProblem(Problem problem)
+        public void AddProblem(Problem problem)
         {
 
             var insertSolution = new SqlCommand(@"INSERT INTO [dbo].[Ks_Problem] ([ZID], [Course], [First_Name], [Last_Name], [Email],
@@ -72,33 +71,6 @@ namespace KnowledgeShareWebApi.Services
             _connection.Open();
             insertSolution.ExecuteNonQuery();
             _connection.Close();
-            try
-            {
-                SendEmail(problem);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-            }
-            return "Successfully Posted a Problem";
-        }
-
-        private static void SendEmail(Problem problem)
-        {
-            var from = new MailAddress("lucky.aisu@gmail.com", "KnowledgeShare");
-            var to = new MailAddress(problem.Email);
-            var mail = new MailMessage(from, to)
-            {
-                Subject = "Submitted a Problem",
-                Body = "You have been successfully submitted a problem for course" + " " + problem.Course
-            };
-
-            var ms = new SmtpClient("smtpcorp.com")
-            {
-                Credentials = new NetworkCredential("lucky.aisu@gmail.com", "lucky_123"),
-                Port = 2525
-            };
-            ms.Send(mail);
         }
     }
 }

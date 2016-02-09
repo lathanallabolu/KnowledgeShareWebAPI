@@ -1,0 +1,7 @@
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Repositories\bin\Debug\KnowledgeShare.Repositories.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Repositories\bin\Debug\KnowledgeShare.Repositories.pdb
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Repositories\bin\Debug\KnowledgeShare.Models.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Repositories\bin\Debug\KnowledgeShare.Models.pdb
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Repositories\obj\Debug\KnowledgeShare.Repositories.csprojResolveAssemblyReference.cache
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Repositories\obj\Debug\KnowledgeShare.Repositories.dll
+C:\stash\KnowledgeShareWebAPI\KnowledgeShare.Repositories\obj\Debug\KnowledgeShare.Repositories.pdb

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Net;
 using System.Net.Mail;
 using System.Web;
-using KnowledgeShareWebApi.Models;
+using KnowledgeShare.Models.Models;
 using System.Data.SqlClient;
 
-namespace KnowledgeShareWebApi.Services
+namespace KnowledgeShare.Services.Services
 {
 
     public class UserService
